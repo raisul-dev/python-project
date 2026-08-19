@@ -12,13 +12,13 @@ class Student:
   def update_cgpa(self,up_cgpa):
     self.CGPA = up_cgpa
     print(f'update cgpa :{self.CGPA}')
-
+#we chack student passed or not 
   def is_passed (self):
     if self.CGPA > 2.00 :
       print("passed")
     else :
       print("FALL")
-
+#call class and set name,id,depm,cgpa
 ob1 = Student('remon',20,'cse',3.50)
 ob1.display_info()
 ob1.update_cgpa(4.00)
