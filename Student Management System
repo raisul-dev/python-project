@@ -5,7 +5,7 @@ class Student:
     self.id = id 
     self.dep = dep
     self.CGPA = CGPA
-
+#create display info mathods
   def display_info(self):
     print(f"Name:{self.name}\nID:{self.id}\nDeparment:{self.dep}\nCGPA:{self.CGPA}")
 
