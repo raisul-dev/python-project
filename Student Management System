@@ -1,4 +1,4 @@
-#Student Management System
+#Basic Student Management System used oop concepts
 class Student:
   def __init__(self,name,id,dep,CGPA):
     self.name = name 
