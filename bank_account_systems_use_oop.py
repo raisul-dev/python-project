@@ -30,7 +30,8 @@ class BankAccount :
     else:
       self.__balance -= amount
       print("Withdraw Succesfull")
-
+      
+#create object
 
 acc1 = BankAccount(2343,'raisul Islam',2000)
 acc1.account_info()
