@@ -36,6 +36,7 @@ class BankAccount :
 acc1 = BankAccount(2343,'raisul Islam',2000)
 #show Account information
 acc1.account_info()
+#show balance
 acc1.account_blance()
 acc1.withdraw_amount(200)
 acc1.account_blance()
