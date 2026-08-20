@@ -144,5 +144,6 @@ while True:
             pen.write(f"Score: {score}", align="center", font=("Arial", 18, "bold"))
 
     time.sleep(delay)
+#run loop
 
 screen.mainloop()
