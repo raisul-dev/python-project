@@ -34,6 +34,7 @@ class BankAccount :
 #create object
 
 acc1 = BankAccount(2343,'raisul Islam',2000)
+#show Account information
 acc1.account_info()
 acc1.account_blance()
 acc1.withdraw_amount(200)
