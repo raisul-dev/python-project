@@ -38,6 +38,7 @@ acc1 = BankAccount(2343,'raisul Islam',2000)
 acc1.account_info()
 #show balance
 acc1.account_blance()
+#withdraw amount
 acc1.withdraw_amount(200)
 acc1.account_blance()
 acc1.deposit_balance(1000)
