@@ -1,6 +1,6 @@
 #we find cgpa
 gpa = float (input("Enter Your GPA :"))
-
+#run condition 
 if gpa < 0  or gpa > 4.00 :
   print("invalid GPA")
 elif gpa == 4.00 :
