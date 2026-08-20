@@ -40,6 +40,7 @@ acc1.account_info()
 acc1.account_blance()
 #withdraw amount
 acc1.withdraw_amount(200)
+#chack banncw
 acc1.account_blance()
 acc1.deposit_balance(1000)
 acc1.account_blance()
