@@ -1,3 +1,4 @@
+#we find cgpa
 gpa = float (input("Enter Your GPA :"))
 
 if gpa < 0  or gpa > 4.00 :
