@@ -1,10 +1,10 @@
-#Bank account system use oop concept
+#Bank account system use oop concepts
 class BankAccount :
   def __init__(self,id ,name,balance,):
     self.id = id
     self.name = name
     self.__balance = balance
-#show accounts information
+#show accounts informations
   def account_info(self):
     print(f"Name : {self.name}\nID : {self.id}")
 
